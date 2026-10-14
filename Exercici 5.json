@@ -1,0 +1,37 @@
+{
+"enquestes":[
+	{
+	"id":1,
+	"titol":"Habits de compra",
+  "boolean": true,
+	"preguntes":[
+    {
+      "ordre":"1",
+      "text":"Setmanalment quant et gastes en la compra?",
+      "tipus":"opcio_multiple",
+      "opcions":["0€","Fins a 50€","Fins a 100€","Mes de 100€"]
+    },
+    {
+      "ordre":"2",
+      "text":"Quan estas de compra mires totes les promocions o nomes dels productes que vas a comprar?",
+      "tipus":"text_lliure"
+    }
+  ]},
+	{
+	"id":2,
+	"titol":"Dispositius electronics",
+  "boolean": false,
+	"preguntes":[
+    {
+      "ordre":"1",
+      "text":"Per un ordinador portatil, quin sistema operatiu es el que prefereixes",
+      "tipus":"opcio_multiple",
+      "opcions":["Windows","MacOS","Linux","Altres"]
+    },
+    {
+      "ordre":"2",
+      "text":"Per quin motiu prefereixes el sistema operatiu de la pregunta anterior? (Si has seleccionat Altres indica el nom del sistema operatiu)",
+      "tipus":"text_lliure"
+    }
+  ]}
+]}
